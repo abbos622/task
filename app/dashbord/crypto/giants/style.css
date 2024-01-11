@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    max-width: 500px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(54, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.dashboard-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-layout {
+    display: flex;
+    align-items: center;
+}
